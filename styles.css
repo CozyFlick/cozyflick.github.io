@@ -2,20 +2,21 @@
 html, body, #video, #chat {
     height: 100vh;
     background-color: #040404;
+    overflow: hidden;
 }
 #container {
+  float: left;
   width: 100%;
   font-size: 0;
 }
 #video, #chat {
   display: inline-block;
   *display: inline;
-  zoom: 1;
   vertical-align: top;
 }
 #video {
-  width: 75%;
+  width: 80%;
 }
 #chat {
-  width: 25%;
+  width: 20%;
 }
