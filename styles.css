@@ -7,9 +7,6 @@ h1 {
   color: white;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
-.video {
-	width: 80%;
-}
 .chat {
 	width: 20%;
 	padding: 10px;
@@ -27,9 +24,9 @@ div#root {
 }
 
 /* iframe itself */
-div#root > iframe {
+div#root > .video {
     display: block;
-    width: 100%;
+    width: 80%;
     height: 100%;
     border: none;
 }
