@@ -1,7 +1,12 @@
-body {
-  background-color: #292929;
-}
 h1 {
   color: white;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.full-height {
+  height: 100%;
+  background-color: #040404;
 }
