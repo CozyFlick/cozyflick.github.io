@@ -3,25 +3,42 @@
   <head>
     <link rel="stylesheet" href="styles.css">
   </head>
-
   <body>
     <div id="container">
       <div id="video">
         <iframe
           src="https://angelthump.com/wowe/embed"
-          height="100%"
+          height="99%"
           width="100%">
         </iframe>
       </div>
       <div id="chat">
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          <button type="button">Set Width</button>
+          <p>Value: <span id="demo"></span></p>
+        </div>
         <iframe
           scrolling="yes"
           id="chaz42"
           src="https://www.twitch.tv/embed/chaz42/chat?darkpopout"
-          height="100%"
+          height="96.5%"
           width="100%">
         </iframe>
       </div>
     </div>
   </body>
 </html>
+
+<script>
+  <!-- Todo: Set custom width? -->
+  <!--
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("demo");
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  -->
+</script>
